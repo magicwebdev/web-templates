@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  line-height: 1;
+  border: none;
+  cursor: pointer;
+}
+
+input:not([type='checkbox']):not([type='radio']),
+textarea {
+  display: block;
+  width: 100%;
+  font-family: inherit;
+  resize: none;
+  border: none;
+}

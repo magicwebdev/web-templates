@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $fontFamily;
+  font-size: $mainFontSize;
+  font-weight: $mainFontWeight;
+  line-height: $mainLineHeight;
+  color: $text;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: $text;
+}
+
+ul,
+li {
+  // font-size: 0;
+  // line-height: 1;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  line-height: 1;
+  border: none;
+  cursor: pointer;
+}
+
+input:not([type='checkbox']):not([type='radio']),
+textarea {
+  display: block;
+  width: 100%;
+  font-family: $fontFamily;
+  resize: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

@@ -1,0 +1,46 @@
+{
+    "name": "project-name",
+    "version": "1.0.0",
+    "description": "template",
+    "main": "index.html",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=dev gulp",
+        "prod": "cross-env NODE_ENV=prod gulp"
+    },
+    "keywords": [],
+    "author": "Aleksandra Khrapkova",
+    "license": "ISC",
+    "browserslist": [
+        "last 2 versions",
+        "> 1%",
+        "ie 10"
+    ],
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "autoprefixer": "^10.1.0",
+        "browser-sync": "^2.26.13",
+        "cross-env": "^7.0.3",
+        "del": "^6.0.0",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-changed": "^4.0.2",
+        "gulp-concat": "^2.6.1",
+        "gulp-favicons": "^3.0.0",
+        "gulp-file-include": "^2.2.2",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-if": "^3.0.0",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-postcss": "^9.0.0",
+        "gulp-replace": "^1.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-sass-glob": "^1.1.0",
+        "gulp-sourcemaps": "^3.0.0",
+        "gulp-svg-sprite": "^1.5.0",
+        "gulp-uglify": "^3.0.2",
+        "mqpacker": "^7.0.0",
+        "node-sass": "^5.0.0",
+        "postcss": "^8.2.1",
+        "postcss-pxtorem": "^5.1.1"
+    }
+}
